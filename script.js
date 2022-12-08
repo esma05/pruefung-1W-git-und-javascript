@@ -6,9 +6,16 @@ const svg = document.querySelector("#svg-field")
 let running = false
 
 function start() {
+
     running = true
     window.requestAnimationFrame(animationLoop)
 }
+function stop() {
+
+    running = false
+    window.requestAnimationFrame(animationLoop)
+}
+
 
 function animationLoop() {
     
