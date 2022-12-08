@@ -12,8 +12,8 @@ function start() {
 
 function animationLoop() {
     
-    // Kommentiere hier (c)    
-    // 
+    // Kommentiere hier (c) 
+    // Erstellt ein Element mit dem angegebenen Namespace-URI und dem angegebenen qualifizierten Namen.Ihr zum beispiel ein Kreis.
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
     // Kommentiere hier (d)
