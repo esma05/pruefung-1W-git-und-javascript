@@ -17,7 +17,7 @@ function animationLoop() {
     const dot = document.createElementNS("http://www.w3.org/2000/svg", "circle")
     
     // Kommentiere hier (d)
-    // 
+    // Da kann man die Eigenschaften von einem Objekt machen also einsetzen. Welche Farbe und schnell es geht und die es geht.Um den aktuellen Wert eines Attributs abzurufen, verwenden Sie getAttribute();.
     let x = Math.random()
     let y = Math.random()
     dot.setAttribute("cx", x)
