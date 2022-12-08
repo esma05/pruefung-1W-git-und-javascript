@@ -4,6 +4,7 @@
 const svg = document.querySelector("#svg-field")
 
 let running = false
+loopCounter== (i++)
 
 function start() {
 
@@ -13,6 +14,7 @@ function start() {
 function stop() {
 
     running = false
+    
     window.requestAnimationFrame(animationLoop)
 }
 
