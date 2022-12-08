@@ -29,7 +29,7 @@ function animationLoop() {
     svg.appendChild(dot)
 
     // Kommentiere hier (f)
-    // 
+    // Code um zuerkennen wie eine Aminationsfarmes aufgeführt wird.
     if ( running === true ) {
         window.requestAnimationFrame(animationLoop)
     }
