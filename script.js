@@ -7,9 +7,12 @@ let running = false
 loopCounter= (i++)
 
 
+
 function start() {
 
     running = true
+    inside=0
+    total=0
     window.requestAnimationFrame(animationLoop)
 }
 function stop() {
@@ -33,7 +36,7 @@ function animationLoop() {
     dot.setAttribute("cx", x)
     dot.setAttribute("cy", y)
     dot.setAttribute("r", 0.01)
-    dot.setAttribute("fill", "black")
+    dot.setAttribute("fill", "red")
     // Kommentiere hier (e)
     //Sie können es bevorzugen, wenn Ihr Knoten ein Element ist.
     svg.appendChild(dot)
