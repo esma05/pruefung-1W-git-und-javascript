@@ -25,6 +25,7 @@ function animationLoop() {
     dot.setAttribute("r", 0.01)
     dot.setAttribute("fill", "black")
     // Kommentiere hier (e)
+    //Sie können es bevorzugen, wenn Ihr Knoten ein Element ist.
     svg.appendChild(dot)
 
     // Kommentiere hier (f)
