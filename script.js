@@ -1,6 +1,6 @@
 
 // Kommentiere hier (b)
-// 
+// Kommentar hier: Es ist einfach zu warm hier.
 const svg = document.querySelector("#svg-field")
 
 let running = false
