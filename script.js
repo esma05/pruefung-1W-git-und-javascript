@@ -1,6 +1,6 @@
 
 // Kommentiere hier (b)
-// Kommentar hier: Es ist einfach zu warm hier.
+// Kommentar hier: DieDocument-MethodequerySelector()gibt das ersteElementinnerhalb des Dokuments zurück, das mit dem angegebenen Selektor oder Gruppe von Selektoren. Wenn keine Übereinstimmungen gefunden werden, wird zurückgegeben.
 const svg = document.querySelector("#svg-field")
 
 let running = false
